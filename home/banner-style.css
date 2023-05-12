@@ -1,0 +1,34 @@
+#banner{
+	width: 100%;
+	height: 700px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#banner #text-wrap{
+	background: rgba(37,37,37,0.7);
+	width: 60%;
+	height: 20%;
+	
+  	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	color: #fff;
+	text-align: center;
+	
+}
+#text-wrap h1{
+	font-size: 4em;
+	text-transform: uppercase;
+}
+
+#text-wrap .pretitle{
+	font-size: 1.875em; 
+	font-family: "Pacifico";
+	font-weight: bold;
+}
+

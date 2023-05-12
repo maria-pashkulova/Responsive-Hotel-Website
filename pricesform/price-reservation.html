@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Цени-Sozopol Pearl</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Sozopol Pearl hotel in Sozopol, Bulgaria">
+	<meta name="keywords" content="hotels, Black Sea, Sozopol, Bulgaria, Pearl, prices">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" href="../home/navigation-and-footer.css">
+	<link rel="stylesheet" type="text/css" href="../home/banner-style.css">
+	<link rel="stylesheet" type="text/css" href="../home/beginning-text.css">
+	<link rel="stylesheet" type="text/css" href="../accommodation/reserveButtonStyle.css">
+
+	<link rel="stylesheet" type="text/css" href="prStyles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div id="logo"> 
+			<a href="../home/index.html">Sozopol Pearl</a>
+		</div>
+		<nav id="main-nav" class="mainNav">
+			<ul>
+				<li><a href="../home/index.html">Начало</a></li>
+				<li><a href="../accommodation/accommodation.html">Настаняване</a></li>
+				<li><a href="../hotel-service/hotel-service.html">Хотелски услуги</a></li>
+				<li><a href="price-reservation.html">Цени</a></li>
+				<li><a href="../contact/contact.html">Контакти</a></li>
+				<li id="icon">
+					 <a href="javascript:void(0);"  onclick="displayMenu()">
+	    				<i class="fa fa-bars"></i>
+	    			</a>
+    			</li>
+			</ul>
+		</nav>
+	</header>
+	<div id="banner">
+		<div id="text-wrap">
+			<div class="pretitle">Sozopol Pearl</div>
+			<h1>Цени</h1>
+		</div>
+	</div>
+	<div id="maincontent-wrapper">
+		<main>
+			<div id="price-info">
+				<h2 id="packet">Цените са за помещение с включена закуска и вечеря на блок маса </h2>
+				<section id="prices">
+					<article>
+						<h3 class="room-type">Двойна стая</h3>
+						<div class="period">
+							<time datetime="06-01">01.06. </time>-	
+							<time datetime="07-05"> 05.07. </time>и 
+							<time datetime="08-21"> 21.08. </time>-	
+							<time datetime="09-14"> 14.09.</time>
+						</div>
+						<div class="price">95 лв.</div>
+						<div class="period">
+							<time datetime="07-06">06.07. </time>-	
+							<time datetime="08-20"> 20.08. </time>
+						</div>
+						<div class="price">110 лв.</div>
+						<div class="period">
+							<time datetime="09-15">15.09. </time>-	
+							<time datetime="05-31"> 31.05. </time>
+						</div>
+						<div class="price">70лв.</div>
+						<div class="reserve-button">
+							<a href="price-reservation.html#form">Резервирай</a>
+						</div>
+					</article>
+					<article>
+						<h3 class="room-type">Студио</h3>
+						<div class="period">
+							<time datetime="06-01">01.06. </time>-	
+							<time datetime="07-05"> 05.07. </time>и 
+							<time datetime="08-21"> 21.08. </time>-	
+							<time datetime="09-14"> 14.09.</time>
+						</div>
+						<div class="price">110 лв.</div>
+						<div class="period">
+							<time datetime="07-06">06.07. </time>-	
+							<time datetime="08-20"> 20.08. </time>
+						</div>
+						<div class="price">125 лв.</div>
+						<div class="period">
+							<time datetime="09-15">15.09. </time>-	
+							<time datetime="05-31"> 31.05. </time>
+						</div>
+						<div class="price">90лв.</div>
+						<div class="reserve-button">
+							<a href="price-reservation.html#form">Резервирай</a>
+						</div>
+					</article>
+					<article>
+						<h3 class="room-type">Апартамент</h3>
+						<div class="period">
+							<time datetime="06-01">01.06. </time>-	
+							<time datetime="07-05"> 05.07. </time>и 
+							<time datetime="08-21"> 21.08. </time>-	
+							<time datetime="09-14"> 14.09.</time>
+						</div>
+						<div class="price">150 лв.</div>
+						<div class="period">
+							<time datetime="07-06">06.07. </time>-	
+							<time datetime="08-20"> 20.08. </time>
+						</div>
+						<div class="price">175 лв.</div>
+						<div class="period">
+							<time datetime="09-15">15.09. </time>-	
+							<time datetime="05-31"> 31.05. </time>
+						</div>
+						<div class="price">110 лв.</div>
+						<div class="reserve-button">
+							<a href="price-reservation.html#form">Резервирай</a>
+						</div>
+					</article>
+				</section>
+			</div>
+			
+			<div id="form">
+				<h2>Резервирайте сега!</h2>
+				<form action="#" method="post" name="reservationForm"
+				 onsubmit="return validateInput()">
+					<div class="input">
+						<label for="first-name">Име</label>
+						<input type="text" id="first-name" name="fn" placeholder="Въведете име">
+						<div class="error" id="fnErr"></div>
+					</div>
+					<div class="input">
+						<label for="last-name">Фамилия</label>
+						<input type="text" id="last-name" name="ln" placeholder="Въведете фамилия">
+						<div class="error" id="lnErr"></div>
+					</div>
+					<div class="input">
+						<label for="tel">Телефон</label>
+						<input type="text" id="tel" name="phone" placeholder="08XXXXXXXX">
+						 <div class="error" id="phoneErr"></div>
+					</div>
+					<div class="input">
+						<label for="mail">Email</label>
+						<input type="text" id="mail" name="email" placeholder="Въведете Email">
+						 <div class="error" id="emailErr"></div>
+					</div>
+					<div class="input">
+						<label for="adults">Възрастни</label>
+						<select id="adults" name="adults">
+							<option>---</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+						</select>
+						 <div class="error" id="adultsErr"></div>
+					</div>
+					<div class="input">
+						<label for="children">Деца</label>
+						<select id="children" name="children">
+							<option>---</option>
+							<option value="0">0</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+						</select>
+						 <div class="error" id="childrenErr"></div>
+					</div>
+					<div class="input">
+						<label for="roomChoice">Стая</label>
+						<select id="roomChoice" name="room">
+							<option value="double">Двойна стая</option>
+							<option value="studio">Студио</option>
+							<option value="apartment">Апартамент</option>
+						</select>
+					</div>
+					<div class="input">
+						<label for="arrival">Дата на пристигане</label>
+						<input type="date" id="arrival" name="arrival" >
+						<div class="error" id="arrivalErr"></div>
+					</div>
+					<div class="input">
+						<label for="leaving">Дата на напускане</label>
+						<input type="date" id="leaving" name="leaving">
+						<div class="error" id="leavingErr"></div>
+					</div>
+					<div id="submit" class="input">
+						<input type="submit" value="Изпрати запитване">
+					</div>
+				</form>
+			</div>
+		</main>
+	</div>
+	
+		
+	<footer>
+		<div id="footer-wrapper">
+			<div id="hotel-name">Sozopol Pearl</div>
+			<div id="phone">
+				<figure>
+					<img src="../home/phone.png" alt="telephone">
+				</figure>
+				<address>+359 889 289 976</address>
+			</div>
+			<div id="email">
+				<figure>
+					<img src="../home/email.png" alt="email">
+				</figure>
+				<address>
+					<a href="mailto:sozopol_pearl@gmail.com">sozopol_pearl@gmail.com</a>
+				</address>
+			</div>
+			<div id="location">
+				<figure>
+					<img src="../home/location.png" alt="location">
+				</figure>
+				<address>Созопол, 8130, местност "Буджака", ул.Виа Понтика 31</address>
+			</div>
+		</div>		
+	</footer>
+
+<script src="../home/responsiveMenu.js"></script>
+<script src="validation.js"></script>
+</body>
+</html>

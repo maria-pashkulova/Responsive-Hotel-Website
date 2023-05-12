@@ -1,0 +1,16 @@
+.reserve-button{
+	margin-top: 15px;
+}
+.reserve-button a{ 
+	background-color: rgb(37,37,37);
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 10px; 
+	transition: background-color 1s;
+}
+.reserve-button a:hover{
+	background-color:#fff;
+	color: #000;
+	border:1px solid #000;
+}
