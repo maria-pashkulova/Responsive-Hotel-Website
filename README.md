@@ -1,6 +1,6 @@
 # Responsive Hotel Website
 In this project I implemented modern CSS layout techniques such as Flexbox, CSS Grid Layout and Media queries in order to achieve responsive design.
-#Screenshots
+# Screenshots
 ![1](https://github.com/maria-pashkulova/Responsive-Hotel-Website/assets/132500391/dabd8a82-4ee9-4dd1-8944-bc19ce3564f1)
 ![2](https://github.com/maria-pashkulova/Responsive-Hotel-Website/assets/132500391/2dd420d2-6790-4054-9e26-a3fbc0cebcc4)
 ![3](https://github.com/maria-pashkulova/Responsive-Hotel-Website/assets/132500391/d8ba32ae-5ae4-451c-8734-37f06f101851)
